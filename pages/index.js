@@ -19,7 +19,14 @@ export default function Home() {
 
       <h1>Consumer App !</h1>
 
-      <SimpleText text="some test" />
+      <SimpleText text="Yikes passing from consumer app!" >
+        <quote>
+          Without a doubt one of the most important poems of the 20th century. “It has never lost its glamour,” Paul Muldoon observed. “It has never failed to be equal to both the fracture of its own era and what, alas, turned out to be the even greater fracture of the ongoing 20th century and now, it seems, the 21st century.” See also: “The Love Song of J. Alfred Prufrock.
+        </quote>
+        <p>
+         -- T. S. Eliot, “The Waste Land”
+        </p>
+      </SimpleText> 
     </div>
   )
 }
